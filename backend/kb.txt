@@ -1,0 +1,89 @@
+
+Kavya Sharma – Portfolio AI Chatbot Knowledge Base
+
+Projects
+
+1. Book Review Sentiment Analysis
+- Built a full-stack system to classify Goodreads book reviews as Positive, Negative, or Neutral.
+- Scraped data using BeautifulSoup and Requests.
+- Preprocessed using NLTK and spaCy.
+- Trained ML models (Logistic Regression, SVM, Naïve Bayes, Random Forest).
+- Fine-tuned transformers (BERT, LSTM, ELECTRA) using HuggingFace.
+- Used weak supervision (TextBlob, VADER, HuggingFace models) + 200+ manually labeled examples for evaluation.
+- Final ELECTRA model achieved ~82% accuracy.
+- Deployed with Flask backend and basic UI.
+Challenges: Lack of labeled data → solved using weak supervision. Class imbalance handled using stratified sampling and class weights.
+Results: Real-time prediction through Flask API with interpretable results. Robust and scalable sentiment classification pipeline.
+
+2. Website Generation from Text Prompt
+- Users describe an idea (e.g., “a portfolio site for a photographer”) → platform builds website.
+- Used OpenAI GPT-3 (text-davinci-003) to generate HTML, CSS, JS.
+- Used DALL·E to generate images dynamically.
+- Built 15 custom templates using HTML, CSS, JS.
+- System matches prompt to template modules using token-to-block intent mapping.
+Challenges: Aligning GPT output with handcrafted templates. Ensuring mobile responsiveness. DALL·E image prompt tuning.
+Results: Generated 100+ websites. GPT wrote content (CTAs, headers), DALL·E generated visuals. Real-time site previews and exports.
+
+3. Agentic AI Tutor (Visual + RAG)
+- Personalized AI tutor for visual subjects.
+- Uses object detection and retrieval-augmented generation (RAG).
+- Accepts user queries and adapts follow-ups based on prior questions.
+- Supports diagrams, explanations, and visual walk-throughs.
+Challenges: Building modular prompt chains and memory context.
+Results: Responsive, educational assistant tailored to student learning paths.
+
+4. Heart Disease Prediction
+- Built a predictive model using the Framingham dataset.
+- Used logistic regression, decision trees, and random forest.
+- Deployed via Flask with simple UI for users to enter health stats.
+- Showed heart disease risk probability.
+
+5. Real Estate Price Prediction
+- Built an end-to-end price prediction app using machine learning.
+- Scraped housing data, performed feature engineering and outlier handling.
+- Used Linear Regression, Random Forest, and XGBoost for training.
+- Deployed with a clean Flask UI for users to input location, sqft, BHK, etc.
+- Delivered real-time predicted house price based on model inference.
+Challenges: Encoding categorical features like location, handling sparse features.
+Results: Highly interpretable and interactive app; showcased full ML lifecycle from data to deployment.
+
+Skills & Tools
+Languages: Python, JavaScript, HTML, CSS
+Libraries: scikit-learn, HuggingFace, spaCy, NLTK, matplotlib, NumPy, pandas
+Web Scraping: BeautifulSoup, Requests
+Deployment: Flask
+Frontend: React, TailwindCSS
+Dev Tools: Git, VS Code
+Other Tools: Excel, Figma, Power BI
+
+Coursework
+- Machine Learning
+- Artificial Intelligence
+- Data Science
+- Data Structures and Algorithms
+- Web Development
+- AR-VR
+- Mobile App Development
+- Databases
+- Software Engineering
+- Probability & Statistics
+
+Education
+Bachelor’s in Computer Science from Navrachana University, India (2020–2024)
+Master’s in Computer Science, University of Southern California (USC), Expected 2026
+
+Experience & Leadership
+Founding Team Member, ML Lead, Stealth AI Startup
+- Oversee ML operations, developing algorithms for core product.
+- Worked across frontend and backend for MVP delivery.
+
+Teaching Assistant, Joint Education Program (JEP), USC
+- Mentored students in applied data projects with community focus.
+
+Techstars Startup Weekend
+- Co-built a fully autonomous day-trading app, ‘Gary’.
+- Led product, branding, and model pipeline; coordinated with cross-functional team across tech and business.
+
+AthenaHacks Mentorship Program
+- Selected as a mentor in USC’s premier women-centric hackathon program.
+- Provided guidance in AI, ML, software engineering, entrepreneurship, and product building.
